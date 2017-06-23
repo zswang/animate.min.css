@@ -1,0 +1,44 @@
+{
+  "name": "animate.min.css",
+  "version": "0.0.2",
+  "description": "A mini library of CSS animations.",
+  "main": "animate-config.json",
+  "scripts": {
+    "dist": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zswang/animate.min.css.git"
+  },
+  "author": {
+    "name": "zswang",
+    "home": "https://weibo.com/zswang"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zswang/animate.min.css/issues"
+  },
+  "homepage": "https://github.com/zswang/animate.min.css#readme",
+  "style": "./animate.css",
+  "jspm": {
+    "main": "animate.css!",
+    "format": "global",
+    "directories": {
+      "lib": "./"
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.2",
+    "cssnano": "^3.5.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-header": "^1.7.1",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.1.5"
+  },
+  "spm": {
+    "main": "./animate.css"
+  }
+}

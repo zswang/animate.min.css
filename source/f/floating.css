@@ -1,0 +1,11 @@
+@keyframes floating {
+  from {
+    transform: translateY(8px) rotate3d(0, 0, 1, 3deg)
+  } to {
+    transform: translateY(-8px) rotate3d(0, 0, 1, -3deg)
+  }
+}
+
+.floating {
+  animation-name: floating;
+}
