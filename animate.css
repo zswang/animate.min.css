@@ -2,7 +2,7 @@
 
 /*!
  * animate.min.css -https://github.com/zswang/animate.min.css#readme
- * Version - 0.0.1
+ * Version - 0.0.3
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
  * Copyright (c) 2017 zswang
@@ -19,6 +19,7 @@
 
 .floating {
   animation-name: floating;
+  animation-direction: alternate;
 }
 
 @keyframes rotating {

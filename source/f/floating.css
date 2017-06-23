@@ -8,4 +8,5 @@
 
 .floating {
   animation-name: floating;
+  animation-direction: alternate;
 }
